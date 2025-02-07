@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-container{
+ background-color: rgb(129, 150, 165);
+ margin: 4rem auto;
+ text-align: center;
+ padding: 1.5rem;
+ border: 1px solid lightblue;
+ width: fit-content;
+}
+
+.title-container h2{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.color-generation-container{
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 0.1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.color-boxes-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 2rem;
+}
+
+.first-color-box{
+    background-color: rgb(129, 150, 165);
+    padding: 2rem 4rem;
+    height: 20rem;
+}
+
+.second-color-box{
+    background-color: rgb(129, 150, 165);
+    padding: 2rem 4rem;
+    height: 20rem;
+}
+
+.third-color-box{
+    background-color: rgb(129, 150, 165);
+    padding: 2rem 4rem;
+    height: 20rem;
+}
+
+.fourth-color-box{
+    background-color: rgb(129, 150, 165);
+    padding: 2rem 4rem;
+    height: 20rem;
+}
+
+.fifth-color-box{
+    background-color: rgb(129, 150, 165);
+    padding: 2rem 4rem;
+    height: 20rem;
+}
+
+h3{
+    color: white;
+}
+
+button{
+background-color: rgb(129, 150, 165);
+color: white;
+outline: none;
+border: none;
+padding: 1rem 2rem;
+cursor: pointer;
+}
+
