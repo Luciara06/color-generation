@@ -17,7 +17,6 @@ let fourthColorBox=document.getElementById("fourth-color-box")
 let fifthHexCode=document.getElementById("fifth-hex-code")
 let fifthColorBox=document.getElementById("fifth-color-box")
 
-
 function generateRandomNumber(){
    let randomNumber= Math.floor(Math.random() * hexadecimalNumberSystem.length) 
    return randomNumber
